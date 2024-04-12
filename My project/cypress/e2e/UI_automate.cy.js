@@ -17,7 +17,6 @@ cy.get('#shipping_postcode').type('47600')
 cy.get('#select2-shipping_country-container').click()
 cy.get('.select2-search__field').type('United States')
 cy.get('.select2-results__option').contains('United States').click()
-
 cy.get('#select2-shipping_state-container').click()
 cy.get('.select2-search__field').type('Michigan')
 cy.get('.select2-results__options').contains('Michigan').click()
